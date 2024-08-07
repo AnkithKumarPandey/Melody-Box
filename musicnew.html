@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <span class="text">MELODY BOX</span>
+    
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
+
+    <div class="player">
+        <div class="current-song">
+            <span id="current-song-title">Select a song</span>
+        </div>
+        <audio id="audio" controls></audio>
+        <div class="controls">
+            <button id="prev">Prev</button>
+            <button id="play-pause">Play</button>
+            <button id="next">Next</button>
+        </div>
+        <div class="playlists">
+            <button id="playlist1-btn">Hindi</button>
+            <button id="playlist2-btn">Telugu</button>
+            <ul id="playlist1" class="playlist"><br>
+                <li data-src="audio1.mp3"></li>
+                <li data-src="audio2.mp3"></li>
+                <li data-src="audio3.mp3"></li>
+
+            </ul>
+            <ul id="playlist2" class="playlist hidden"><br>
+                <li data-src="audio4.mp3"></li>
+                <li data-src="audio5.mp3"></li>
+                <li data-src="audio6.mp3"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

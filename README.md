@@ -1,4 +1,4 @@
-The "Melody Box" is a dynamic and interactive music player web application built using HTML, CSS, and JavaScript. This project allows users to enjoy their favorite tunes by providing a seamless interface to play, pause and skip tracks. The design is sleek and modern, ensuring an intuitive and engaging user experience. "Melody Box" aims to bring simplicity and functionality together, making music listening both enjoyable and convenient.
+"Melody Box" is a versatile music player application designed to enhance your listening experience by offering a unique feature: switching the language of the same song. If you enjoy hearing songs in different languages, Melody Box provides an innovative way to enjoy your favorite tunes.
 
 # OUTPUT:
 
